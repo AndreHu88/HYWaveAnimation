@@ -13,6 +13,7 @@
 		4D2A12B41EE269EC00B754EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2A12B21EE269EC00B754EB /* Main.storyboard */; };
 		4D2A12B61EE269EC00B754EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2A12B51EE269EC00B754EB /* Assets.xcassets */; };
 		4D2A12B91EE269EC00B754EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2A12B71EE269EC00B754EB /* LaunchScreen.storyboard */; };
+		4D2A12C31EE26A3300B754EB /* HYWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A12C21EE26A3300B754EB /* HYWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4D2A12B51EE269EC00B754EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D2A12B81EE269EC00B754EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D2A12BA1EE269EC00B754EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2A12C11EE26A3300B754EB /* HYWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYWaveView.h; sourceTree = "<group>"; };
+		4D2A12C21EE26A3300B754EB /* HYWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4D2A12A81EE269EC00B754EB /* HYWaveProgressDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4D2A12C01EE26A1600B754EB /* WaveView */,
 				4D2A12AC1EE269EC00B754EB /* AppDelegate.h */,
 				4D2A12AD1EE269EC00B754EB /* AppDelegate.m */,
 				4D2A12AF1EE269EC00B754EB /* ViewController.h */,
@@ -77,6 +81,15 @@
 				4D2A12AA1EE269EC00B754EB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D2A12C01EE26A1600B754EB /* WaveView */ = {
+			isa = PBXGroup;
+			children = (
+				4D2A12C11EE26A3300B754EB /* HYWaveView.h */,
+				4D2A12C21EE26A3300B754EB /* HYWaveView.m */,
+			);
+			path = WaveView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				4D2A12B11EE269EC00B754EB /* ViewController.m in Sources */,
 				4D2A12AE1EE269EC00B754EB /* AppDelegate.m in Sources */,
+				4D2A12C31EE26A3300B754EB /* HYWaveView.m in Sources */,
 				4D2A12AB1EE269EC00B754EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
